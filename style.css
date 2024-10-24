@@ -5,13 +5,13 @@ body{
     margin: 0;
     padding: 0;
     justify-content: center;
-    background-color: #040404;
+    background-color: #212121;
 }
 
 header{
     display: flex;
     height: 50px;
-    background: linear-gradient(90deg, #ff0066, #ff6600);
+    background-color: #040404;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -46,11 +46,12 @@ header{
     justify-content: center;
     padding: 130px;
     color: #fff;
+    font-size: 30px;
 }
 
 .image{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
     animation: float 2s linear infinite;
 }
@@ -73,28 +74,16 @@ img{
     }
 }
 
-.contenido{
-    text-align: center;
-    margin-top: 50px;
-    padding: 10px 20px; 
-    background-color: #007bff; 
-    color: white; 
-    text-decoration: none; 
-    border-radius: 5px; 
-    margin-left: 500px;
-    margin-right: 500px;
-    max-height: 40px;
-    background: linear-gradient(90deg, #ff0066, #ff6600);
+.contenido {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-radius: 9px;
+    background: #d5f365;
     border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.contenido h1{
+    font-family: inherit;
     text-align: center;
-    margin: -1px;
 }
 
 .cont{
@@ -103,7 +92,7 @@ img{
 }
 
 .cont .links{
-    color: #007bff;
+    color: #000000;
     text-decoration: none;
     display: block;
     margin-top: 50px;
@@ -112,22 +101,27 @@ img{
 }
 
 .cont .links{
-        padding: 15px 30px;
-        font-size: 18px;
-        font-weight: 500;
-        color: white;
-        text-decoration: none;
-        background: linear-gradient(90deg, #ff0066, #ff6600);
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
-        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #d5f365;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
-.links:hover{
-    box-shadow: 0 10px 20px rgba(255, 0, 102, 0.5);
-    transform: translateY(-3px);
+
+.links:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+}
+
+.links:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
 }
 
 hr{
@@ -136,7 +130,7 @@ hr{
 footer{
     text-align: center;
     margin-top: 70px;
-    background-color: #040404;
+    background-color: #212121;
     height: 200px;
     margin-top: 0;
 }
